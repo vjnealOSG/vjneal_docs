@@ -1,0 +1,24 @@
+Verifying and troubleshooting VOMS servers.
+
+https://twiki.grid.iu.edu/bin/view/Documentation/Release3/NavTechVOMS
+https://twiki.grid.iu.edu/bin/view/Documentation/Release3/InstallVoms
+https://twiki.grid.iu.edu/bin/view/Documentation/Release3/NavOsgVO
+https://github.com/opensciencegrid/osg-vo-config
+
+1. Get osg-system-profiler output from VOMS server.
+2. find /etc/grid-security -ls (to see all the host and service certs)
+3. openssl x509 -in CERTFILE -noout -text” for each “*cert.pem (replacing CERTFILE with the actual path)
+4. Config file dumps:
+voms
+/etc/voms/VO_NAME/voms.conf
+
+voms-admin
+/etc/voms-admin/VO_NAME/voms-admin-dosar.xml
+/etc/voms-admin/VO_NAME/voms.service.properties
+
+MYSQL
+/etc/my.cnf
+
+Tomcat Configuration:
+EL5: /etc/tomcat5/
+ELG6: /etc/tomcat6/
