@@ -1,6 +1,40 @@
-Links:
-https://twiki.grid.iu.edu/bin/view/Operations/BdiiInstalledCapacityValidation
-https://twiki.grid.iu.edu/bin/view/Documentation/Release3/NavTechGIP
-https://twiki.grid.iu.edu/bin/view/Documentation/Release3/GipConfiguration
+CEMON/BDII Troubleshooting
+
+This may be outdated material but I believe the ldap queries still work.
+https://internal.grid.iu.edu/twiki/bin/view/Documentation/BDII/TroubleShootServices
+
+This document will help you troubleshoot problems with the OSG Information Services, which includes CEMon and the GIP
 https://twiki.grid.iu.edu/bin/view/Documentation/Release3/TroubleShootingCEMonGIP
+
+This is more of Steps Admins should do/check prior to asking for help But proved very useful for us as well
 https://twiki.grid.iu.edu/bin/view/ResourceSelection/CEMonTroubleshootingGuide
+
+Log Files for CEMON
+
+CEMon	/var/log/glite-ce-monitor/glite-ce-monitor.log
+
+
+
+GIP troubleshooting
+
+https://twiki.grid.iu.edu/bin/view/SoftwareTeam/ComponentGIP
+https://twiki.grid.iu.edu/bin/view/Documentation/Release3/GipConfiguration
+
+
+GIP: Log files
+
+%/var/log/gip/gip.log 
+/var/log/gip/modules.log
+
+
+MISC
+
+Documentations Glossary
+https://twiki.grid.iu.edu/bin/view/Documentation/GlossaryJumpIndex
+
+
+Possible info on GIP from this page
+https://twiki.grid.iu.edu/bin/view/Documentation/Release3/NavTechGIP
+
+Possible useful info for BDII
+https://twiki.grid.iu.edu/bin/view/Operations/BdiiInstalledCapacityValidation
